@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<script> 
+$(document).ready(function(){
+  $("#item_wrapper").click(function(){
+    $("#item_wrapper").animate({
+      top: '-=230px'
+    });
+  });
+  
+   $("#APP").click(function(){
+    $("#item_wrapper").animate({
+      top: '110px'
+    });
+  });
+  
+});
+</script> 
+<body>
+
+
+	<div id="APP">
+		<div id="MASK"></div>
+	</div>
+
+	<div id="item_wrapper">
+	
+		<div style="background-color: pink;" class="item"></div>
+		<div style="background-color: yellow;" class="item"></div>
+		<div style="background-color: green;" class="item"></div>
+		
+	</div>	
+
+	<button>Start Animation</button>
+</body>
+</html>

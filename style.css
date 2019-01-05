@@ -1,0 +1,42 @@
+
+body {
+	margin: 0px;
+}
+
+#APP {
+	
+	width: 100%;
+	height: 1000px;
+	background-color: lightblue;
+	margin: 0px;
+	position: absolute;
+}
+
+
+#MASK {
+	min-height: 1000px;
+	width: 100%;
+	background-color: red;
+	clip-path: polygon(0% 0%, 0% 100%, 9% 100%, 9% 11%, 92% 11%, 92% 34%, 8% 34%, 8% 100%, 100% 100%, 100% 0%);
+	position: absolute;
+	z-index: 100;
+}
+
+
+
+#item_wrapper {
+	height: 600px;
+	width: 84%;
+	position: relative;
+	top: 110px;
+	left: 9%;
+	background-color: blue;
+	z-index: 7;
+}
+
+
+.item {
+		height: 230px;
+		width: 100%
+		
+}
